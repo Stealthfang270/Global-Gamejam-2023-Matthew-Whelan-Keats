@@ -16,7 +16,9 @@
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"draw_pie","order":1,"path":"scripts/draw_pie/draw_pie.yy",},
     {"name":"spr_carrot","order":6,"path":"sprites/spr_carrot/spr_carrot.yy",},
+    {"name":"rm_main","order":2,"path":"rooms/rm_main/rm_main.yy",},
     {"name":"obj_carrot_tile","order":6,"path":"objects/obj_carrot_tile/obj_carrot_tile.yy",},
     {"name":"spr_card","order":3,"path":"sprites/spr_card/spr_card.yy",},
     {"name":"fnt_pix_antiqua_large","order":1,"path":"fonts/fnt_pix_antiqua_large/fnt_pix_antiqua_large.yy",},
@@ -24,6 +26,7 @@
     {"name":"spr_trash","order":5,"path":"sprites/spr_trash/spr_trash.yy",},
     {"name":"obj_text","order":3,"path":"objects/obj_text/obj_text.yy",},
     {"name":"spr_button","order":1,"path":"sprites/spr_button/spr_button.yy",},
+    {"name":"obj_trash","order":7,"path":"objects/obj_trash/obj_trash.yy",},
     {"name":"obj_crop_space","order":1,"path":"objects/obj_crop_space/obj_crop_space.yy",},
     {"name":"spr_shop","order":4,"path":"sprites/spr_shop/spr_shop.yy",},
     {"name":"rm_crops","order":1,"path":"rooms/rm_crops/rm_crops.yy",},

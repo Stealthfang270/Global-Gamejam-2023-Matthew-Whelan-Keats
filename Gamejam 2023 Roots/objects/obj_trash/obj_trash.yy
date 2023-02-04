@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_carrot_tile",
+  "name": "obj_trash",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -9,11 +9,8 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": {
-    "name": "obj_par_crop_tile",
-    "path": "objects/obj_par_crop_tile/obj_par_crop_tile.yy",
-  },
-  "persistent": true,
+  "parentObjectId": null,
+  "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -29,9 +26,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_carrot",
-    "path": "sprites/spr_carrot/spr_carrot.yy",
+    "name": "spr_trash",
+    "path": "sprites/spr_trash/spr_trash.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
