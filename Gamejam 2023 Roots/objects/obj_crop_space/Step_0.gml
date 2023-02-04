@@ -7,10 +7,6 @@ if(crop != noone) {
 		crop = instance_create_layer(x,y,"Instances",crop);
 		createdCrop = true;
 	}
-	
-	with(crop) {
-		tile = other;
-	}
 }
 
 if(sprite_index == spr_crop_full) {

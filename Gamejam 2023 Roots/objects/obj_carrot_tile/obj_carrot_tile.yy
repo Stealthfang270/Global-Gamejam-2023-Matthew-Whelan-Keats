@@ -6,7 +6,9 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"crop","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"obj_carrot",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"description","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"Pierces through 1 enemy",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"descriptionLvl1","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"Pierces through 1 enemy",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"descriptionLvl2","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"Pierces through 3 enemies",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"descriptionLvl3","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"Pierces through infinite enemies",},
   ],
   "parent": {
     "name": "Tiles",

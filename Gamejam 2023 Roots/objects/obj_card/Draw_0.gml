@@ -9,8 +9,7 @@ draw_full_text(x + sprite_width/6, y + sprite_height/3.2, fa_center, fa_middle, 
 draw_full_text(x - sprite_width/6, y + sprite_height/3.2, fa_center, fa_middle, fnt_pix_antiqua, string(turns), c_white);
 
 if (position_meeting(mouse_x, mouse_y, self) && !isHeld) {
-	show_debug_message("Mouse is hovering");
 	var temp = instance_create_layer(x,y, "Instances", crop);
-	draw_full_paragraph_text(x, y+sprite_height * 0.7,fa_center,fa_center,fnt_pix_antiqua_small,crop.description,c_white,20,200);
+	draw_full_paragraph_text(x, y+sprite_height * 0.7,fa_center,fa_center,fnt_pix_antiqua_small,crop.descriptionLvl1,c_white,20,200);
 	instance_destroy(temp);
 }

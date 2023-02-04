@@ -5,6 +5,9 @@ direction = image_angle + 90;
 
 if(!createdCrop) { 
 	cropInst = instance_create_layer(x,y,"Instances",crop);
+	with(cropInst) {
+		level = other.cropLevel;
+	}
 	createdCrop = true;
 }
 

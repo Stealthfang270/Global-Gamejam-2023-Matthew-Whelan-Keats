@@ -17,6 +17,16 @@ if(mouse_check_button_released(mb_left)) {
 				crop = other.crop;
 			}
 			instance_destroy();
+		} else if(instance_place(x,y,obj_crop_space).sprite_index == spr_crop_full) {
+			//Check if crop is the same as the crop on the card
+			show_debug_message((instance_place(x,y,obj_crop_space).crop));
+			if(instance_place(x,y,obj_crop_space).crop.object_index == crop) {
+				global.gold -= cost;
+				with(instance_place(x,y,obj_crop_space)) {
+					alarm[0] = 1;
+				}
+				instance_destroy();
+			}
 		}
 	}
 	x = startX;

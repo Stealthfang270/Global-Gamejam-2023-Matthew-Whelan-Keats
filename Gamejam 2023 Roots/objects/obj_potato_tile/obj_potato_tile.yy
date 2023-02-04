@@ -8,7 +8,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"crop","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"obj_potato",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"maxTime","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"3",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"time","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"3",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"description","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"Heavy but does more damage",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"descriptionLvl1","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"Heavy but does more damage",},
   ],
   "parent": {
     "name": "Tiles",
