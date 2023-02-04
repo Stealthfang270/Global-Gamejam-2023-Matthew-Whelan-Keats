@@ -4,10 +4,13 @@
   "name": "obj_carrot_tile",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"crop","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"obj_carrot",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"description","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"Pierces through 1 enemy",},
+  ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Tiles",
+    "path": "folders/Objects/Tiles.yy",
   },
   "parentObjectId": {
     "name": "obj_par_crop_tile",
