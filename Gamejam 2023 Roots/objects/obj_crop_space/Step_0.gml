@@ -24,8 +24,10 @@ if(sprite_index == spr_crop_full) {
 	if(mouse_check_button_released(mb_left)) {
 		if(place_meeting(x,y,obj_trash)) {
 			sprite_index = spr_crop_space;
+			instance_destroy(crop);
 			crop = noone;
 			cropSprite = noone;
+			createdCrop = false;
 		}
 		isHeld = false;
 		x = startPosX;
