@@ -5,6 +5,11 @@ if(crop != noone) {
 	
 	if(!createdCrop) {
 		crop = instance_create_layer(x,y,"Instances",crop);
+		if(firstCrop) {
+			with(crop) {
+				time = 0;
+			}
+		}
 		createdCrop = true;
 	}
 }
