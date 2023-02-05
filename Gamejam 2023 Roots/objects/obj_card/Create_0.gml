@@ -13,13 +13,22 @@ enum Crop_Types {
 	blueberry,
 	tomato,
 	beetroot,
+	dragonfruit,
 	NUM
 }
 
 randomize();
 
-//Right now this cycles through all crops. Later have it cycle based on the current wave
-randCrop = irandom_range(0, Crop_Types.NUM - 1);
+if(global.wave < 4) {
+	//tier 1 crops
+	randCrop = irandom_range(0, Crop_Types.beetroot);
+} else if (global.wave >= 4 && global.wave <= 7) {
+	//tier 2 crops
+	randCrop = irandom_range(0, Crop_Types.NUM - 1);
+} else {
+	//tier 3 crops
+	randCrop = irandom_range(0, Crop_Types.NUM - 1);
+}
 show_debug_message(randCrop);
 
 
@@ -58,6 +67,13 @@ switch(randCrop) {
 		turns = 1;
 		crop = obj_beetroot_tile;
 		cropSprite = spr_beetroot;
+		break;
+	case Crop_Types.dragonfruit:
+		cropName = "dragonfruit"
+		cost = 8;
+		turns = 2;
+		crop = obj_dragonfruit_tile;
+		cropSprite = spr_dragonfruit;
 		break;
 }
 

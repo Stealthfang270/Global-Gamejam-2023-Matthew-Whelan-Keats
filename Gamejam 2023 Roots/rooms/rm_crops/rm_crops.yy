@@ -7,6 +7,7 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
+    {"name":"inst_23998C74","path":"rooms/rm_crops/rm_crops.yy",},
     {"name":"inst_5428C31C","path":"rooms/rm_crops/rm_crops.yy",},
     {"name":"inst_21BE89A5","path":"rooms/rm_crops/rm_crops.yy",},
     {"name":"inst_2F117922","path":"rooms/rm_crops/rm_crops.yy",},
@@ -16,7 +17,6 @@
     {"name":"inst_51C9135E","path":"rooms/rm_crops/rm_crops.yy",},
     {"name":"inst_35C03D13","path":"rooms/rm_crops/rm_crops.yy",},
     {"name":"inst_946DB2C","path":"rooms/rm_crops/rm_crops.yy",},
-    {"name":"inst_23998C74","path":"rooms/rm_crops/rm_crops.yy",},
     {"name":"inst_758728F","path":"rooms/rm_crops/rm_crops.yy",},
     {"name":"inst_36B793C8","path":"rooms/rm_crops/rm_crops.yy",},
     {"name":"inst_141F9140","path":"rooms/rm_crops/rm_crops.yy",},
