@@ -1,16 +1,14 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_dragonfruit",
+  "name": "obj_garlic",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop","path":"objects/obj_par_crop/obj_par_crop.yy",},"propertyId":{"name":"damage","path":"objects/obj_par_crop/obj_par_crop.yy",},"value":"0",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop","path":"objects/obj_par_crop/obj_par_crop.yy",},"propertyId":{"name":"grav","path":"objects/obj_par_crop/obj_par_crop.yy",},"value":"0.20",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "Crops",
     "path": "folders/Objects/Crops.yy",
@@ -35,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_dragonfruit",
-    "path": "sprites/spr_dragonfruit/spr_dragonfruit.yy",
+    "name": "spr_garlic",
+    "path": "sprites/spr_garlic/spr_garlic.yy",
   },
   "spriteMaskId": null,
   "visible": true,

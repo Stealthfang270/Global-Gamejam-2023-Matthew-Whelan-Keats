@@ -3,7 +3,7 @@
 image_angle = point_direction(x,y,mouse_x,mouse_y) - 90;
 direction = image_angle + 90;
 
-if(!createdCrop) { 
+if(!createdCrop && crop != noone && crop != undefined) { 
 	cropInst = instance_create_layer(x,y,"Instances",crop);
 	with(cropInst) {
 		level = other.cropLevel;

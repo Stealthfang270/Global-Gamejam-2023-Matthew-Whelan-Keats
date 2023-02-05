@@ -14,6 +14,7 @@ enum Crop_Types {
 	tomato,
 	beetroot,
 	dragonfruit,
+	garlic,
 	NUM
 }
 
@@ -74,6 +75,13 @@ switch(randCrop) {
 		turns = 2;
 		crop = obj_dragonfruit_tile;
 		cropSprite = spr_dragonfruit;
+		break;
+	case Crop_Types.garlic:
+		cropName = "garlic"
+		cost = 6;
+		turns = 2;
+		crop = obj_garlic_tile;
+		cropSprite = spr_garlic;
 		break;
 }
 
