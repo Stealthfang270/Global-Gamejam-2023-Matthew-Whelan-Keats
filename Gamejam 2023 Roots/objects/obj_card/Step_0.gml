@@ -16,6 +16,7 @@ if(mouse_check_button_released(mb_left)) {
 			with(instance_place(x,y,obj_crop_space)) {
 				crop = other.crop;
 			}
+			audio_play_sound(snd_plant,1,0);
 			instance_destroy();
 		} else if(instance_place(x,y,obj_crop_space).sprite_index == spr_crop_full) {
 			//Check if crop is the same as the crop on the card
@@ -25,6 +26,7 @@ if(mouse_check_button_released(mb_left)) {
 				with(instance_place(x,y,obj_crop_space)) {
 					alarm[0] = 1;
 				}
+				audio_play_sound(snd_plant,1,0);
 				instance_destroy();
 			}
 		}

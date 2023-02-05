@@ -10,7 +10,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"crop","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"obj_ginger",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"descriptionLvl1","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"shoots balls in random directions",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"descriptionLvl2","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"fires faster, more damage",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"descriptionLvl3","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"fires at lightspeed, even more damage",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"propertyId":{"name":"descriptionLvl3","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"value":"fires at lightspeed, even more damage. Warning: Loud",},
   ],
   "parent": {
     "name": "Tiles",

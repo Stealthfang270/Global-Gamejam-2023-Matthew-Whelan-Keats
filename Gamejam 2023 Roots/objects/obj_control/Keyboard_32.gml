@@ -1,4 +1,4 @@
 /// @description 
 
-wave++;
-global.gold++;
+//wave++;
+//global.gold++;

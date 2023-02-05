@@ -55,6 +55,10 @@ if(thrown) {
 		xSpeed = 0;
 		ySpeed = 0;
 		rotSpeed = 0;
+		if(!hasPlayedSound) {
+			audio_play_sound(snd_plant,1,0);
+			hasPlayedSound = true;
+		}
 		
 		if(!attemptedDestroy) {
 			alarm[0] = 120;

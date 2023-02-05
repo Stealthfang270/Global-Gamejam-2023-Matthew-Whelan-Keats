@@ -1,2 +1,2 @@
 /// @description 
-global.gold++;
+//global.gold++;

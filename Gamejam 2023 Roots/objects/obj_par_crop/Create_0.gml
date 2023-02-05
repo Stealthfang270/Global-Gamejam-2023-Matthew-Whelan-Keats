@@ -9,3 +9,5 @@ rotSpeed = 0;
 
 hasLeveledUp = false;
 attemptedDestroy = false;
+
+hasPlayedSound = false;

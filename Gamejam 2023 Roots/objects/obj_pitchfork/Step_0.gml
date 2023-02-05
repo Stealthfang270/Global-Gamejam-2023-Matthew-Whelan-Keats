@@ -28,6 +28,7 @@ if(mouse_check_button(mb_left)) {
 			rotSpeed = 10 * other.charge * velocityMultiplier;
 			thrown = true;
 		}
+		audio_play_sound(snd_throw,1,0);
 		threwCrop = true;
 	}
 	charge = max(0, charge - maxCharge * 3/10);

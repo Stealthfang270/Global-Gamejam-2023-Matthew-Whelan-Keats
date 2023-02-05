@@ -20,5 +20,6 @@ x += xSpeed;
 
 if(x > room_width) {
 	global.health--;
+	audio_play_sound(snd_hurt,1,0);
 	instance_destroy();
 }

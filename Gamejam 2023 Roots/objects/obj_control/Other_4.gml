@@ -22,3 +22,7 @@ if(room_get_name(room) == "rm_main") {
 	
 	alarm[1] = 120;
 }
+
+if(room_get_name(room) == "rm_gameover") {
+	audio_play_sound(snd_gameover,1,0);
+}

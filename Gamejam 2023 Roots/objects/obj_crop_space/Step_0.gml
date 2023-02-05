@@ -30,6 +30,7 @@ if(sprite_index == spr_crop_full) {
 			crop = noone;
 			cropSprite = noone;
 			createdCrop = false;
+			audio_play_sound(snd_destroy,1,0);
 		}
 		isHeld = false;
 		x = startPosX;
