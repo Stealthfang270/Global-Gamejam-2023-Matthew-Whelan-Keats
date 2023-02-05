@@ -9,6 +9,8 @@
   "instanceCreationOrder": [
     {"name":"inst_21A4DE78","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_644DE81E","path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"inst_665E02D8","path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"inst_513F0F33","path":"rooms/rm_menu/rm_menu.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -16,11 +18,21 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21A4DE78","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"roomTo","path":"objects/obj_button/obj_button.yy",},"value":"rm_crops",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"buttonText","path":"objects/obj_button/obj_button.yy",},"value":"Start Game",},
-          ],"rotation":0.0,"scaleX":2.5,"scaleY":1.0,"x":683.0,"y":352.0,},
+          ],"rotation":0.0,"scaleX":2.5,"scaleY":1.0,"x":683.0,"y":449.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_644DE81E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"buttonType","path":"objects/obj_button/obj_button.yy",},"value":"2",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"buttonText","path":"objects/obj_button/obj_button.yy",},"value":"Quit",},
-          ],"rotation":0.0,"scaleX":2.5,"scaleY":1.0,"x":683.0,"y":462.0,},
+          ],"rotation":0.0,"scaleX":2.5,"scaleY":1.0,"x":683.0,"y":536.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_665E02D8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"font","path":"objects/obj_text/obj_text.yy",},"value":"fnt_pix_antiqua_xxlarge",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"color","path":"objects/obj_text/obj_text.yy",},"value":"$FF006ED6",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"text","path":"objects/obj_text/obj_text.yy",},"value":"UPROOT",},
+          ],"rotation":0.0,"scaleX":2.46875,"scaleY":2.46875,"x":715.5,"y":233.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_513F0F33","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"font","path":"objects/obj_text/obj_text.yy",},"value":"fnt_pix_antiqua_large",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"color","path":"objects/obj_text/obj_text.yy",},"value":"$FF006ED6",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"text","path":"objects/obj_text/obj_text.yy",},"value":"The Crop Throwing Simulator",},
+          ],"rotation":0.0,"scaleX":2.46875,"scaleY":2.46875,"x":703.5,"y":311.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4289892362,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

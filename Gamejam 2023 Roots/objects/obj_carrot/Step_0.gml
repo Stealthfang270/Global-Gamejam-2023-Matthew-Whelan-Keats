@@ -11,6 +11,7 @@ if(!hasLeveledUp) {
 			break;
 		case 2:
 			hitsLeft = 4;
+			damage = 2;
 			break;
 		case 3:
 			hitsLeft = 99999;
