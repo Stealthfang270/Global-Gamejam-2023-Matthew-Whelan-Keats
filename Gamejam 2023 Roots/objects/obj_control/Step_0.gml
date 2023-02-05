@@ -7,7 +7,7 @@ if(room_get_name(room) == "rm_main") {
 		if(obj_pitchfork.threwCrop && !triggeredCycle) {
 			triggeredCycle = true;
 			alarm[0] = 60;
-		} else if (obj_pitchfork.threwCrop = false) {
+		} else if (obj_pitchfork.threwCrop == false) {
 			triggeredCycle = false;
 		}
 	} else {

@@ -3,6 +3,8 @@
 image_angle = point_direction(x,y,mouse_x,mouse_y) - 90;
 direction = image_angle + 90;
 
+show_debug_message("Has thrown crop: " + string(threwCrop));
+
 if(!createdCrop && crop != noone && crop != undefined) { 
 	cropInst = instance_create_layer(x,y,"Instances",crop);
 	with(cropInst) {
@@ -19,7 +21,7 @@ if(mouse_check_button(mb_left)) {
 		startedCharge = true;
 	}
 } else {
-	if(startedCharge && !threwCrop) {
+	if(startedCharge && !threwCrop && cropInst != noone) {
 		with(cropInst) {
 			xSpeed = lengthdir_x(12 * other.charge * velocityMultiplier,direction);
 			ySpeed = lengthdir_y(12 * other.charge * velocityMultiplier,direction);
@@ -34,7 +36,7 @@ if(mouse_check_button(mb_left)) {
 x = startPosX - lengthdir_x(charge * chargeDist, direction);
 y = startPosY - lengthdir_y(charge * chargeDist, direction);
 
-if(!threwCrop) {
+if(!threwCrop && cropInst != noone) {
 	with(cropInst) {
 		image_angle = other.image_angle + 90;
 		direction = image_angle;

@@ -3,6 +3,7 @@ randomize();
 endedRound = false;
 
 if(room_get_name(room) == "rm_main") {
+	triggeredCycle = false;
 	ds_list_clear(crops);
 	ds_list_clear(levels);
 	
