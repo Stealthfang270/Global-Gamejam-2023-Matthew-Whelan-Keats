@@ -4,5 +4,5 @@
 event_inherited();
 
 hasLeveledUp = false;
-
+hasSplit = false;
 

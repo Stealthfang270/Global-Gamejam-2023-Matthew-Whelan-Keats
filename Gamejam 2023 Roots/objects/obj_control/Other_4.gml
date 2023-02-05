@@ -1,5 +1,6 @@
 /// @description 
 randomize();
+endedRound = false;
 
 if(room_get_name(room) == "rm_main") {
 	ds_list_clear(crops);

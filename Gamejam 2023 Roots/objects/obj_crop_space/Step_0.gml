@@ -9,6 +9,7 @@ if(crop != noone) {
 			with(crop) {
 				time = 0;
 			}
+			firstCrop = false;
 		}
 		createdCrop = true;
 	}

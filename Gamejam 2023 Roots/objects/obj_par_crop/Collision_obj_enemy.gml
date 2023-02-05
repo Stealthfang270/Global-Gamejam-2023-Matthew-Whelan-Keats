@@ -1,5 +1,5 @@
 /// @description 
 
 if(thrown) {
-	instance_destroy();
+	alarm[0] = 1;
 }
