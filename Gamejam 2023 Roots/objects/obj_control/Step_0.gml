@@ -25,7 +25,7 @@ if(room_get_name(room) == "rm_main") {
 			xSpeed *= random_range(0.8 + (other.wave -1) * 0.1, 1.2 + (other.wave -1) * 0.1);
 		}
 		enemiesThisRound--;
-		spawnDelay = random_range(minSpawnDelay - min((wave - 1) * 30, 270),maxSpawnDelay - min((wave - 1) * 30, 370));
+		spawnDelay = random_range(minSpawnDelay - min((wave - 1) * 15, 300),maxSpawnDelay - min((wave - 1) * 15, 370));
 		
 		if(enemiesThisRound <= 0 && !endedRound) {
 			wave++;

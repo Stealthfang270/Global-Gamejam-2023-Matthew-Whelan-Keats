@@ -16,6 +16,8 @@ enum Crop_Types {
 	dragonfruit,
 	garlic,
 	watermelon,
+	daikon,
+	ginger,
 	NUM
 }
 
@@ -24,7 +26,7 @@ randomize();
 if(global.wave < 4) {
 	//tier 1 crops
 	randCrop = irandom_range(0, Crop_Types.beetroot);
-} else if (global.wave >= 4 && global.wave <= 7) {
+} else if (global.wave >= 4 && global.wave < 7) {
 	//tier 2 crops
 	randCrop = irandom_range(0, Crop_Types.watermelon);
 } else {
@@ -90,6 +92,20 @@ switch(randCrop) {
 		turns = 3;
 		crop = obj_watermelon_tile;
 		cropSprite = spr_watermelon;
+		break;
+	case Crop_Types.daikon:
+		cropName = "daikon";
+		cost = 12;
+		turns = 3;
+		crop = obj_daikon_tile;
+		cropSprite = spr_daikon;
+		break;
+	case Crop_Types.ginger:
+		cropName = "ginger";
+		cost = 10;
+		turns = 1;
+		crop = obj_ginger_tile;
+		cropSprite = spr_ginger;
 		break;
 }
 
