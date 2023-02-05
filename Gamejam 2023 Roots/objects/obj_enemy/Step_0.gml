@@ -12,7 +12,13 @@ if(invFrames > 0) {
 }
 
 if(hp <= 0) {
+	global.gold += 1;
 	instance_destroy();
 }
 
 x += xSpeed;
+
+if(x > room_width) {
+	global.health--;
+	instance_destroy();
+}

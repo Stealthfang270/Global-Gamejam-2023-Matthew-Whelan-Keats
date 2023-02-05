@@ -11,6 +11,6 @@ if(room_get_name(room) != "rm_crops") {
 		y -= 500;
 	}
 	if(crop != noone) {
-		crop.time--;
+		crop.time = max(0, crop.time - 1);
 	}
 }

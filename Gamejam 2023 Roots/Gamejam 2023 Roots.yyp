@@ -70,15 +70,18 @@
     {"id":{"name":"spr_control","path":"sprites/spr_control/spr_control.yy",},"order":0,},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":0,},
     {"id":{"name":"fnt_pix_antiqua_exlarge","path":"fonts/fnt_pix_antiqua_exlarge/fnt_pix_antiqua_exlarge.yy",},"order":0,},
+    {"id":{"name":"scr_reset","path":"scripts/scr_reset/scr_reset.yy",},"order":0,},
     {"id":{"name":"obj_par_crop_tile","path":"objects/obj_par_crop_tile/obj_par_crop_tile.yy",},"order":0,},
     {"id":{"name":"spr_gold","path":"sprites/spr_gold/spr_gold.yy",},"order":0,},
     {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"order":0,},
+    {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},"order":0,},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"order":0,},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_crops","path":"rooms/rm_crops/rm_crops.yy",},},
     {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
+    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

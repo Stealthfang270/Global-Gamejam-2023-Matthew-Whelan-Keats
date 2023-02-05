@@ -1,3 +1,5 @@
 /// @description 
 
-instance_destroy();
+if(thrown) {
+	instance_destroy();
+}

@@ -1,4 +1,5 @@
 /// @description 
+randomize();
 
 if(room_get_name(room) == "rm_main") {
 	ds_list_clear(crops);
@@ -8,10 +9,14 @@ if(room_get_name(room) == "rm_main") {
 		with(obj_crop_space) {
 			if(tileSpace == other.i) {
 				if(crop != noone) {
-					ds_list_add(other.crops, crop.crop);
-					ds_list_add(other.levels, crop.level);
+					if(crop.time == 0) {
+						ds_list_add(other.crops, crop.crop);
+						ds_list_add(other.levels, crop.level);
+					}
 				}
 			}
 		}
 	}
+	
+	alarm[1] = 120;
 }

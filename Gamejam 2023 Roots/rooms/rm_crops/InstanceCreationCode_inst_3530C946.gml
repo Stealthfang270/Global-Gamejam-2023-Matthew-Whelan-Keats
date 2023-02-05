@@ -1,0 +1,1 @@
+text = "Wave: " + string(global.wave);

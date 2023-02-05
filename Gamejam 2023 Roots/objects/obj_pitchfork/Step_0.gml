@@ -14,7 +14,7 @@ if(!createdCrop) {
 
 if(mouse_check_button(mb_left)) {
 	charge = min(charge + maxCharge/seconds,maxCharge);
-	show_debug_message("Charge: " + string(charge));
+	//show_debug_message("Charge: " + string(charge));
 	if(charge > 0.3) {
 		startedCharge = true;
 	}
