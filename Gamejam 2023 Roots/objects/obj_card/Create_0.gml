@@ -8,7 +8,6 @@ randCrop = 0;
 isHeld = false;
 
 enum Crop_Types {
-	carrot,
 	potato,
 	blueberry,
 	tomato,
@@ -18,7 +17,7 @@ enum Crop_Types {
 	watermelon,
 	daikon,
 	ginger,
-	NUM
+	NUM //Num just serves the purpose of being able to check the length of the enum
 }
 
 randomize();
@@ -37,13 +36,6 @@ show_debug_message(randCrop);
 
 
 switch(randCrop) {
-	case Crop_Types.carrot:
-		cropName = "carrot";
-		cost = 2;
-		turns = 1;
-		crop = obj_carrot_tile;
-		cropSprite = spr_carrot;
-		break;
 	case Crop_Types.potato:
 		cropName = "potato";
 		cost = 3;

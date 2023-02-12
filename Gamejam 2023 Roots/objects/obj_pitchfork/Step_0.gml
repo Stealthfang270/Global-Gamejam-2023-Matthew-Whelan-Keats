@@ -3,7 +3,7 @@
 image_angle = point_direction(x,y,mouse_x,mouse_y) - 90;
 direction = image_angle + 90;
 
-show_debug_message("Has thrown crop: " + string(threwCrop));
+//show_debug_message("Has thrown crop: " + string(threwCrop));
 
 if(!createdCrop && crop != noone && crop != undefined) { 
 	cropInst = instance_create_layer(x,y,"Instances",crop);
@@ -11,6 +11,11 @@ if(!createdCrop && crop != noone && crop != undefined) {
 		level = other.cropLevel;
 	}
 	createdCrop = true;
+}
+
+if(crop == noone || crop == undefined) {
+	crop = obj_carrot;
+	level = 1;
 }
 
 

@@ -12,5 +12,5 @@ startPosY = y;
 
 createdCrop = false;
 startedCharge = false;
-threwCrop = true;
+threwCrop = false;
 
