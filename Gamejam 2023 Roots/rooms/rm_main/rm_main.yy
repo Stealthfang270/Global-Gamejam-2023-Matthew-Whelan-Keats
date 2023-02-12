@@ -11,6 +11,7 @@
     {"name":"inst_51380754","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_22FB7379","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_2701BC7E","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_34AC787D","path":"rooms/rm_main/rm_main.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -59,6 +60,12 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"font","path":"objects/obj_text/obj_text.yy",},"value":"fnt_pix_antiqua_exlarge",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"halign","path":"objects/obj_text/obj_text.yy",},"value":"fa_right",},
           ],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1344.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_34AC787D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"buttonText","path":"objects/obj_button/obj_button.yy",},"value":"Go Back",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"roomTo","path":"objects/obj_button/obj_button.yy",},"value":"rm_crops",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"font","path":"objects/obj_button/obj_button.yy",},"value":"fnt_pix_antiqua_large",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"playSound","path":"objects/obj_button/obj_button.yy",},"value":"snd_gameover",},
+          ],"rotation":0.0,"scaleX":3.5,"scaleY":1.5,"x":1232.0,"y":592.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_2","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_47ABAABA","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":6.0,"scaleY":5.0,"spriteId":{"name":"spr_cloud","path":"sprites/spr_cloud/spr_cloud.yy",},"x":32.0,"y":32.0,},
