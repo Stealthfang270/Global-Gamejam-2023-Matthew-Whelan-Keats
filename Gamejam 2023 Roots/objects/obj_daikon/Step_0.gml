@@ -26,7 +26,7 @@ if(thrown) {
 		}
 	}
 	
-	if(ySpeed > xSpeed) {
+	if(abs(ySpeed) > abs(xSpeed)) {
 		xSpeed = ySpeed;
 	} else {
 		ySpeed = xSpeed;

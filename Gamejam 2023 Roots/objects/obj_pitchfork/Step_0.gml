@@ -24,6 +24,7 @@ if(mouse_check_button(mb_left)) {
 	if(charge > 0.3) {
 		startedCharge = true;
 	}
+	
 } else {
 	if(startedCharge && !threwCrop && cropInst != noone) {
 		with(cropInst) {

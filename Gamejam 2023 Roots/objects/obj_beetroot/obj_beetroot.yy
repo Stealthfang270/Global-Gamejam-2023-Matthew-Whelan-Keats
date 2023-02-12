@@ -8,6 +8,7 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop","path":"objects/obj_par_crop/obj_par_crop.yy",},"propertyId":{"name":"grav","path":"objects/obj_par_crop/obj_par_crop.yy",},"value":"0",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_par_crop","path":"objects/obj_par_crop/obj_par_crop.yy",},"propertyId":{"name":"damage","path":"objects/obj_par_crop/obj_par_crop.yy",},"value":"2",},
   ],
   "parent": {
     "name": "Crops",

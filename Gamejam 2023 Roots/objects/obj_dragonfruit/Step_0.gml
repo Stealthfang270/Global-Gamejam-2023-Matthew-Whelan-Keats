@@ -11,7 +11,7 @@ if(!hasLeveledUp) {
 			break;
 		case 2:
 			explosionSize = 12;
-			explosionDamage = 2;
+			explosionDamage = 4;
 			break;
 		case 3:
 			explosionSize = 16;

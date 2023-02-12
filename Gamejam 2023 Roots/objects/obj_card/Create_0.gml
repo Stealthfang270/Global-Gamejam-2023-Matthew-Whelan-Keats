@@ -59,7 +59,7 @@ switch(randCrop) {
 		break;
 	case Crop_Types.beetroot:
 		cropName = "beetroot";
-		cost = 4;
+		cost = 3;
 		turns = 1;
 		crop = obj_beetroot_tile;
 		cropSprite = spr_beetroot;
@@ -95,7 +95,7 @@ switch(randCrop) {
 	case Crop_Types.ginger:
 		cropName = "ginger";
 		cost = 10;
-		turns = 1;
+		turns = 2;
 		crop = obj_ginger_tile;
 		cropSprite = spr_ginger;
 		break;

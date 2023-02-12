@@ -19,9 +19,11 @@
     {"name":"inst_946DB2C","path":"rooms/rm_crops/rm_crops.yy",},
     {"name":"inst_758728F","path":"rooms/rm_crops/rm_crops.yy",},
     {"name":"inst_36B793C8","path":"rooms/rm_crops/rm_crops.yy",},
-    {"name":"inst_141F9140","path":"rooms/rm_crops/rm_crops.yy",},
     {"name":"inst_3530C946","path":"rooms/rm_crops/rm_crops.yy",},
     {"name":"inst_E8FA533","path":"rooms/rm_crops/rm_crops.yy",},
+    {"name":"inst_958B4EB","path":"rooms/rm_crops/rm_crops.yy",},
+    {"name":"inst_59BA5533","path":"rooms/rm_crops/rm_crops.yy",},
+    {"name":"inst_141F9140","path":"rooms/rm_crops/rm_crops.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -85,6 +87,20 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"buttonType","path":"objects/obj_button/obj_button.yy",},"value":"1",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"scr","path":"objects/obj_button/obj_button.yy",},"value":"scr_reset",},
           ],"rotation":0.0,"scaleX":2.5,"scaleY":1.0,"x":1008.0,"y":80.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_958B4EB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"color","path":"objects/obj_text/obj_text.yy",},"value":"$FF000000",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"text","path":"objects/obj_text/obj_text.yy",},"value":"Farmer's Tips:",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"halign","path":"objects/obj_text/obj_text.yy",},"value":"fa_left",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"font","path":"objects/obj_text/obj_text.yy",},"value":"fnt_pix_antiqua_large",},
+          ],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":992.0,"y":224.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_59BA5533","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"halign","path":"objects/obj_text/obj_text.yy",},"value":"fa_left",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"isParagraph","path":"objects/obj_text/obj_text.yy",},"value":"True",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"tips","path":"objects/obj_text/obj_text.yy",},"value":"True",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"paragraphWidth","path":"objects/obj_text/obj_text.yy",},"value":"300",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"paragraphLineHeight","path":"objects/obj_text/obj_text.yy",},"value":"25",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"valign","path":"objects/obj_text/obj_text.yy",},"value":"fa_top",},
+          ],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":992.0,"y":256.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Decoration","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_336946DB","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":2.0205479,"scaleY":2.020548,"spriteId":{"name":"spr_field","path":"sprites/spr_field/spr_field.yy",},"x":64.0,"y":510.0274,},
